@@ -1,0 +1,35 @@
+.body{
+    width: 100wh;
+    height: 100vh;
+    position: relative;
+    display: flex ;
+    justify-content: center;
+}
+.bg-image{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    opacity: 1;
+}
+@media (max-width:1080px) {
+    .bg-image{
+        opacity: 0;
+    }
+}
+.bg-image2{
+    position: absolute;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+    object-fit: contain;
+    z-index: 5;
+}
+.button-1{
+    background: linear-gradient(to right, #74caec, #6fb5fe);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+
